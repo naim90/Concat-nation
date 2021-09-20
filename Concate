@@ -1,0 +1,17 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    
+
+Console.WriteLine("Entrez la première chaine de caractères :");
+
+String userEntry1=Console.ReadLine();
+
+Console.WriteLine("Entrez la deuxième chaine de caractères :");
+
+String userEntry2=Console.ReadLine();
+
+Console.WriteLine(userEntry1 + " "+userEntry2);
+  }
+}
